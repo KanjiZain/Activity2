@@ -1,0 +1,252 @@
+@import url("https://fonts.googleapis.com/css?family=Lato&display=swap");
+
+/* #loader {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 1;
+    width: 120px;
+    height: 120px;
+    margin: -76px 0 0 -76px;
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    -webkit-animation: spin 2s linear infinite;
+    animation: spin 2s linear infinite;
+    border-top: 16px solid blue;
+    border-bottom: 16px solid blue;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+} */
+
+/* @keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+} */
+
+#myDiv {
+  background-color: white;
+  align-items: center;
+  justify-content: center;
+  font-family: "Lato", sans-serif;
+}
+
+#myDiv .container-fluid .row .left {
+  margin-top: 20px;
+}
+
+#myDiv .container-fluid .row .left .container1-l {
+  margin-left: 55px;
+
+  justify-content: space-between;
+}
+
+#myDiv .container-fluid .row .left .container1-l button {
+  border-radius: 10px;
+  word-spacing: 100px;
+  padding: 5px;
+}
+
+#myDiv .container-fluid .row .left #expen-icon button {
+  border-radius: 5px;
+  border-width: 1px;
+  background-color: rgb(235, 235, 235);
+  padding: 12px;
+  word-spacing: 100px;
+}
+
+.container-fluid .row .left #expen-icon {
+  word-spacing: 10px;
+  margin-top: 20px;
+  padding: 10px;
+  margin-left: 50px;
+}
+
+.container-fluid .row .left #expen-selection {
+  word-spacing: 40px;
+
+  margin-left: 70px;
+}
+
+.container-fluid .row .left #expen-title {
+  word-spacing: 10px;
+  margin-top: 12px;
+  margin-left: 50px;
+}
+
+.container-fluid .row .left .container2-l #expen-add button {
+  margin-top: 20px;
+  font-size: larger;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  border-radius: 1px;
+  padding-right: 5rem;
+  border-width: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 5rem;
+  background-color: rgb(233, 233, 233);
+  font-weight: bolder;
+  color: rgb(72, 119, 119);
+  margin-left: 50px;
+}
+
+.container-fluid .row .left .container2-l #expen-add button:focus {
+  margin-top: 20px;
+  font-size: larger;
+  align-items: center;
+  text-align: center;
+  text-align: center;
+  border-radius: 1px;
+  padding-right: 5rem;
+  border-width: 1px;
+  padding-left: 5rem;
+  font-weight: bolder;
+  background-color: rgb(189, 248, 248);
+  color: rgb(72, 119, 119);
+  margin-left: 50px;
+}
+
+.container-fluid .row .left .container3-l #table1 {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+  width: 400px;
+  word-spacing: 50px;
+  width: 80%;
+  margin-left: 50px;
+}
+
+.container-fluid .row .left .container3-l #table1 thead tr {
+  background-color: rgb(233, 233, 233);
+  word-spacing: 50px;
+  width: 100%;
+  border-bottom: 2px solid #dddddd;
+}
+
+.container-fluid .row .left .container3-l #table1 th,
+.container-fluid .row .left .container3-l #table1 td {
+  padding: 12px 15px;
+  width: 30%;
+  background-color: rgb(233, 233, 233);
+  border-bottom: 2px solid #dddddd;
+}
+
+.container-fluid .row .left .container3-l #table1 tbody tr {
+  border-bottom: 2px solid #000000;
+  word-spacing: 50px;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+}
+
+.container-fluid .row .right {
+  margin-top: 20px;
+}
+
+.row .right .userbtn button {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border-style: none;
+  border-width: 0px;
+  border-radius: 12px;
+  margin-left: 95%;
+}
+
+.row .right {
+  background-color: rgb(243, 243, 243);
+  width: 500px;
+  height: min-content;
+}
+
+.container-fluid .row .right .container3-r #table2 {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+}
+
+.container-fluid .row .right .container3-r #table2 thead tr {
+  background-color: rgb(233, 233, 233);
+  word-spacing: 50px;
+}
+
+.container-fluid .row .right .container3-r #table2 th,
+.container-fluid .row .right .container3-r #table2 td {
+  padding: 12px 15px;
+  width: 50%;
+  background-color: rgb(233, 233, 233);
+}
+
+/* /////////////////////////////////////////////////////////// */
+.container-fluid .row .right .container4-r #table3 {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  font-family: sans-serif;
+}
+
+.container-fluid .row .right .container4-r #table3 thead tr {
+  background-color: rgb(233, 233, 233);
+  word-spacing: 50px;
+}
+
+.container-fluid .row .right .container4-r #table3 th,
+.container-fluid .row .right .container4-r #table3 td {
+  padding: 12px 15px;
+  width: 100%;
+  background-color: rgb(233, 233, 233);
+}
+
+div.scroll {
+  width: 450px;
+  height: 150px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+div.scroll1 {
+  width: 450px;
+  height: 250px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  div.container1-l input {
+    padding-left: 40px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .container-fluid .row .left #expen-icon {
+    padding-left: -10px;
+    word-spacing: 18px;
+  }
+
+  .container-fluid .row .left #expen-selection {
+    padding-left: -10px;
+    word-spacing: 40px;
+  }
+
+  .container-fluid .row .left #expen-title {
+    padding-left: -10px;
+    word-spacing: 4px;
+  }
+}
