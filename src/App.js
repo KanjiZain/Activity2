@@ -1,17 +1,32 @@
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Auth from "./login";
-import Home from "./home";
+import Exercise1 from "./Exercises/Exercise1";
+import Exercise2 from "./Exercises/Exercise2";
+import Exercise3 from "./Exercises/Exercise3";
+import Exercise4 from "./Exercises/Exercise4";
+
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/home" element={<Home />} />
-      </Routes>
-    </BrowserRouter>
-    
+    <div className="App">
+      <BrowserRouter>
+        <nav>
+          <Link to="exercise1">Exercise1</Link>
+          <Link to="exercise2">Exercise2</Link>
+          <Link to="exercise3">Exercise3</Link>
+          <Link to="exercise4">Exercise4</Link>
+        </nav>
+
+        <h1>Welcome to Baham Home Page</h1>
+
+        <Routes>
+          <Route path="/exercise1" element={<Exercise1 />} />
+          <Route path="/exercise2" element={<Exercise2 />} />
+          <Route path="/exercise3" element={<Exercise3 />} />
+          <Route path="/exercise4" element={<Exercise4 />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   );
 }
 
